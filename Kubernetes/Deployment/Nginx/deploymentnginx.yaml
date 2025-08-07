@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploymentnginx
+  labels:
+    app: frontend
+spec:
+  replicas: 3
+  template:
+    metadata:
+      name: podName
+      labels:
+        app: ex
+    spec:
+      containers:
+        - name: containerName
+          image: imageName
+  selector:
+    matchLabels:
+      app: ex

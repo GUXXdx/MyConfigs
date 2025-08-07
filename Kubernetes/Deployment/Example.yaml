@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: exemple
+  labels:
+    app: ex
+spec:
+  replicas: #nombre de pod
+  template:
+    metadata:
+      name: podName
+      labels:
+        app: ex
+    spec:
+      containers:
+        - name: containerName
+          image: imageName
+  selector:
+    matchLabels:
+      app: ex
