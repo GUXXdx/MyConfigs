@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: podName
+  labels:
+    lablesTitre: exmple
+    app: exWebapp
+spec:
+  containers:
+    - name: containerName
+      image: imageName
