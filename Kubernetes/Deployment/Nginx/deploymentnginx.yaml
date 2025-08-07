@@ -8,13 +8,13 @@ spec:
   replicas: 3
   template:
     metadata:
-      name: podName
+      name: podnginx
       labels:
-        app: ex
+        app: nginx
     spec:
       containers:
-        - name: containerName
-          image: imageName
+        - name: containernginx
+          image: nginx
   selector:
     matchLabels:
-      app: ex
+      app: nginx
