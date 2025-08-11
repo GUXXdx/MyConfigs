@@ -2,8 +2,8 @@
 
 Voici une liste des différents fichiers de configuration que j'ai utiliser jusqu'a maintenant que ça soit pour docker (docker-compose) ou des fichiers de configuration pour des objets kubernetes:
 
-- [Mes différentes configuration Docker](./Docker/dockerDocuNavigation.md)
-- [Mes différentes configuration Kubernetes](Kubernetes/KubernetesDocuNavigation.md)
+- [Mes différentes configurations Docker](./Docker/dockerDocuNavigation.md)
+- [Mes différentes configurations Kubernetes](Kubernetes/KubernetesDocuNavigation.md)
 
 ---
 
